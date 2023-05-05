@@ -303,5 +303,5 @@ const app = {
 // app.start();
 setTimeout(() => {
     app.start();
-}, 3000);
+}, 300);
 
