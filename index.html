@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="favicon/site.webmanifest"> -->
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="music-playing">
+            <video class="background-video"
+                src="assets/video/backgroud/nghe-si-guitar-139.mp4" autoplay loop
+                muted></video>
+            <div class="music-info">
+                <div class="music-status">Now playing</div>
+                <div class="music-title"></div>
+                <div class="music-img">
+                    <div class="music-img-item"></div>
+                </div>
+            </div>
+            <div class="music-toolbar">
+                <div class="music-repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="music-prev">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="music-play">
+                    <span class="play-icon"><i class="fa-solid fa-play"></i></span>
+                    <span class="pause-icon"><i class="fa-solid fa-pause"></i></span>
+                </div>
+                <div class="music-next">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="music-random">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <div class="progress-block">
+                <input type="range" class="progress" value="0" min="0" max="100" step="1">
+            </div>
+            <div class="progress-duration">
+                <div class="time-start"></div>
+                <div class="time-end"></div>
+            </div>
+            <audio src="" id="audio"></audio>
+        </div>
+
+        <div class="music-list-container">
+           
+        </div>
+    </div>
+
+   
+
+    <script src="main.js"></script>
+</body>
+
+</html>

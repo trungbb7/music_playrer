@@ -1,0 +1,78 @@
+[{
+        "id": 1,
+        "title": "Hãy Trao Cho Anh",
+        "singer": "Sơn Tùng M-TP, Snoop Dogg",
+        "src": "assets/music/music1/Hãy Trao Cho Anh - Sơn Tùng M-TP, Snoop Dogg.mp3",
+        "image": "assets/music/music1/6525117527785385588264962863390061280362496n-1561311135531958290066.webp"
+},
+{
+        "id": 2,
+        "title": "Yêu anh đi mẹ anh bán bánh mì",
+        "singer": "Phúc Du",
+        "src": "assets/music/music2/yêu anh đi mẹ anh bán bánh mì (Cukak Remix) - Phúc Du.mp3",
+        "image": "assets/music/music2/1679655276339.jpg"
+},
+{
+        "id": 3,
+        "title": "Gió",
+        "singer": "Jank",
+        "src": "assets/music/music3/Gió (Cucak Remix) - Jank.mp3",
+        "image": "assets/music/music3/maxresdefault.jpg"
+},
+{
+        "id": 4,
+        "title": "Là anh",
+        "singer": "Nguyễn Hoàng & Hải Anh Remix",
+        "src": "assets/music/music4/Là Anh (Nguyễn Hoàng & Hải Nam Remix) - Phạm Lịch.mp3",
+        "image": "assets/music/music4/1679038732427_640.jpg"
+},
+{
+        "id": 5,
+        "title": "Như Anh Đã Thấy Em",
+        "singer": "PhucXP, Freak D",
+        "src": "assets/music/music5/Như Anh Đã Thấy Em - PhucXP, Freak D.mp3",
+        "image": "assets/music/music5/1654684969581_640.jpg"
+},
+{
+        "id": 6,
+        "title": "Muộn rồi mà sao còn",
+        "singer": "Sơn Tùng M-TP",
+        "src": "assets/music/music6/Muộn Rồi Mà Sao Còn - Sơn Tùng M-TP.mp3",
+        "image": "assets/music/music6/Sơn_Tùng_M-TP_-_Muộn_rồi_mà_sao_còn.png"
+},
+{
+        "id": 7,
+        "title": "Yêu 5",
+        "singer": "Rhymasti",
+        "src": "assets/music/music7/Yêu 5 - Rhymastic.mp3",
+        "image": "assets/music/music7/1511770260582_640.jpg"
+},
+{
+        "id": 8,
+        "title": "Người đầu tiên",
+        "singer": "Đức Phúc",
+        "src": "assets/music/music8/Ngay Dau Tien - Duc Phuc - NhacHay360.mp3",
+        "image": "assets/music/music8/1644555869460_300.jpg"
+},
+{
+        "id": 9,
+        "title": "Tháng Tư Là Lời Nói Dối Của Em",
+        "singer": "Hà Anh Tuấn",
+        "src": "assets/music/music9/Tháng Tư Là Lời Nói Dối Của Em - Hà Anh Tuấn.mp3",
+        "image": "assets/music/music9/1506063884297_640.jpg"
+},
+{
+        "id": 10,
+        "title": "Khi Người Mình Yêu Khóc",
+        "singer": "Phan Mạnh Quỳnh",
+        "src": "assets/music/music10/Khi Người Mình Yêu Khóc - Phan Mạnh Quỳnh.mp3",
+        "image": "assets/music/music10/1525967072035_640.jpg"
+},
+{
+    "id": 11,
+    "title": "Tại Vì Sao",
+    "singer": "RPT MCK",
+    "src": "assets/music/music11/Tai Vi Sao - MCK - NhacHay360.mp3",
+    "image": "assets/music/music11/1677809278739_640.jpg"
+}
+]
