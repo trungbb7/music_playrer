@@ -17,33 +17,14 @@ const randomtBtn = $('.music-random');
 const currentTimePlay = $('.time-start');
 const duration = $('.time-end');
 const progress = $('.progress');
-// let musics = [];
-
-// var musics = (async function(){
-//     const m = await (await fetch('./musics.json')).json();
-//     console.log(m);
-//     return m;
-    
-    // .then(
-    //     (response) => response.json()
-    // )
-    // .then (
-    //     function (json) {
-    //         musics =  json
-    //     }
-    // )
-    
-// })().then(function (response) { 
-//         console.log(response)
-//     })'
 
 var songs = [];
-const musics = fetch('./musics.json').then(response =>  response.json()).then((json) => json);
-;(async function (){
-    songs = await musics;
-    app.songs = songs;
+// const musics = fetch('./musics.json').then(response =>  response.json()).then((json) => json);
+// ;(async function (){
+//     songs = await musics;
+//     app.songs = songs;
 
-})()
+// })()
 
 
 const app = {
@@ -300,8 +281,8 @@ const app = {
 }
 
 
-// app.start();
-setTimeout(() => {
-    app.start();
-}, 300);
+;(async function run () {
+    app.songs = await fetch('./musics.json').then (response => response.json())
+    app.start()
 
+})()
